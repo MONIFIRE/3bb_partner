@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f7fbff" />
+    <meta name="description" content="Fiber Partner แนะนำลูกค้าติดตั้งอินเทอร์เน็ตบ้าน รับค่าตอบแทน 100 บาท เมื่อมีการติดตั้งสำเร็จตามเงื่อนไข สมัครและส่งข้อมูลลูกค้าได้ง่าย ๆ" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;600;700;800&family=Prompt:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <title>Fiber Partner | แนะนำเน็ตบ้าน รับ 100 บาท</title>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <!-- Netlify detects this form during its static HTML scan. Keep all field names
+         in sync with src/App.jsx; the visible React form submits via POST / . -->
+    <form name="fiber-lead" method="POST" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input name="bot-field" />
+      <input name="agentName" />
+      <input name="agentPhone" />
+      <input name="customerName" />
+      <input name="customerPhone" />
+      <input name="province" />
+      <input name="district" />
+      <input name="installAddress" />
+      <input name="provider" />
+      <input name="notes" />
+      <input name="consent" />
+    </form>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
